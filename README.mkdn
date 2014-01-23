@@ -31,7 +31,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the CyanogenMod trees, use a command like this:
 
-    repo init -u git://github.com/CyanogenMod/android.git -b cm-11.0
+    repo init -u git://github.com/Alberto96/android.git -b cm-11.0
 
 Then to sync up:
 
@@ -48,3 +48,19 @@ Buildbot
 All supported devices are built nightly and periodically as changes are committed to ensure the source trees remain buildable.
 
 You can view the current build statuses at [CyanogenMod Jenkins](http://jenkins.cyanogenmod.org/)
+
+Alberto96 Extras
+----------------
+
+To build CM11 for Galaxy S4 Exynos GT-I9500 after syncing all repos cherry pick (no checkout/patch) those commits:
+
+for frameworks/native:
+
+https://gerrit.omnirom.org/#/c/2757/3
+http://review.cyanogenmod.org/#/c/54376/
+
+for frameworks/av:
+
+http://review.cyanogenmod.org/#/c/54375/ (fix conflict in Android.mk before compiling the rom)
+
+
