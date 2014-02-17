@@ -479,4 +479,5 @@
   <project path="hardware/samsung_slsi/exynos" name="CyanogenMod/android_hardware_samsung_slsi_exynos" />
   <project path="hardware/samsung_slsi/exynos5-insignal" name="CyanogenMod/android_hardware_samsung_slsi_exynos5-insignal" />
   <project path="hardware/samsung_slsi/openmax" name="CyanogenMod/android_hardware_samsung_slsi_openmax" />
+  <project path="hardware/samsung" name="Alberto96/android_hardware_samsung" remote="github" revision="cm-11.0" />
 </manifest>
