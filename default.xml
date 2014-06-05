@@ -487,9 +487,9 @@
   <project path="vendor/samsung" name="Alberto96/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
   <project path="device/samsung/i9500" name="Alberto96/android_device_samsung_i9500" remote="github" revision="cm-11.0-testing" />
   <project path="kernel/samsung/exynos5410" name="Alberto96/android_kernel_samsung_exynos5410" remote="github" revision="cm-11.0" />
-  <project path="hardware/samsung_slsi/exynos5410" name="CyanogenMod/android_hardware_samsung_slsi_exynos5410" />
-  <project path="hardware/samsung_slsi/exynos" name="CyanogenMod/android_hardware_samsung_slsi_exynos" />
-  <project path="hardware/samsung_slsi/exynos5-insignal" name="CyanogenMod/android_hardware_samsung_slsi_exynos5-insignal" />
+  <project path="hardware/samsung_slsi/exynos5410" name="Alberto96/android_hardware_samsung_slsi_exynos5410" remote="github" revision="cm-11.0"/>
+  <project path="hardware/samsung_slsi/exynos" name="Alberto96/android_hardware_samsung_slsi_exynos" remote="github" revision="cm-11.0"/>
+  <project path="hardware/samsung_slsi/exynos5-odroidxu" name="Alberto96/android_hardware_samsung_slsi_exynos5-odroidxu" remote="github" revision="cm-11.0"/>
   <project path="hardware/samsung_slsi/openmax" name="CyanogenMod/android_hardware_samsung_slsi_openmax" />
   <project path="hardware/samsung" name="Alberto96/android_hardware_samsung" remote="github" revision="cm-11.0" />
   <!-- Linaro Toolchain -->
