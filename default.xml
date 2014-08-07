@@ -510,8 +510,6 @@
   <project path="hardware/samsung" name="GearCM/android_hardware_samsung" remote="github" revision="cm-11.0" />
   <project path="vendor/samsung" name="GearOMNI/proprietary_vendor_samsung" remote="github" revision="android-4.4" />
 
-  <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" remote="aosp" groups="pdk,darwin,arm" revision="refs/tags/android-4.4.4_r2" />
-
   <project path="art" name="GearCM/android_art" remote="github" revision="cm-11.0" />
   <project path="external/fuse" name="GearCM/android_external_fuse" remote="github" revision="cm-11.0" />
 
