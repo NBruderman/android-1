@@ -121,7 +121,6 @@
   <project path="external/embunit" name="CyanogenMod/android_external_embunit" />
   <project path="external/emma" name="CyanogenMod/android_external_emma" />
   <project path="external/esd" name="CyanogenMod/android_external_esd" />
-  <project path="external/exfat" name="CyanogenMod/android_external_exfat" />
   <project path="external/expat" name="CyanogenMod/android_external_expat" groups="pdk" />
   <project path="external/eyes-free" name="CyanogenMod/android_external_eyes-free" />
   <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" />
@@ -514,5 +513,6 @@
 
   <project path="art" name="GearCM/android_art" remote="github" revision="cm-11.0" />
   <project path="external/fuse" name="GearCM/android_external_fuse" remote="github" revision="cm-11.0" />
+  <project path="external/exfat" name="GearCM/android_external_exfat" remote="github" revision="cm-11.0" />
 
 </manifest>
