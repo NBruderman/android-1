@@ -17,10 +17,6 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="GearCM/android_build" remote="github" revision="cm-11.0" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-
   <project path="android" name="CyanogenMod/android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
@@ -512,8 +508,12 @@
 
   <project path="prebuilt/linux-x86/toolchain/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
 
-  <project path="art" name="GearCM/android_art" remote="github" revision="cm-11.0" />
-  <project path="external/fuse" name="GearCM/android_external_fuse" remote="github" revision="cm-11.0" />
-  <project path="external/exfat" name="GearCM/android_external_exfat" remote="github" revision="cm-11.0" />
+  <project path="build" name="CyanogenMod/android_build" remote="github" revision="cm-11.0" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <project path="art" name="CyanogenMod/android_art" remote="github" revision="cm-11.0" />
+  <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-11.0" />
+  <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-11.0" />
 
 </manifest>
