@@ -11,6 +11,9 @@
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
+           
+  <remote  name="gitorious"
+           fetch="git://gitorious.org/" />
 
   <default revision="refs/heads/cm-11.0"
            remote="github"
@@ -490,7 +493,7 @@
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
   
     <!-- Samsung Galaxy S4 Exynos Repositories -->
-  <project path="device/samsung/i9500" name="GearCM/android_device_samsung_i9500" remote="github" revision="cm-11.0_new" />
+  <project path="device/samsung/i9500" name="GearCM/android_device_samsung_i9500" remote="github" revision="cm-11.0_riltest" />
   <project path="kernel/samsung/exynos5410" name="GearCM/android_kernel_samsung_exynos5410" remote="github" revision="cm-11.0-lagdiagnose" />
   <project path="hardware/samsung_slsi/openmax" name="GearCM/android_hardware_samsung_slsi_openmax" remote="github" revision="cm-11.0" />
   
@@ -503,6 +506,9 @@
   <project name="Badadroid/android_vendor_samsung_wave" path="vendor/samsung/wave" remote="github" revision="cm-11.0" />
   <project name="GearCM/android_kernel_samsung_wave" path="kernel/samsung/wave" remote="github" revision="cm-11.0" />
   <project name="GearCM/android_external_libmocha-ipc" path="external/libmocha-ipc" remote="github" revision="cm-11.0" />
+
+  <project path="hardware/ril/samsung-ril" name="replicant/hardware_ril_samsung-ril" remote="gitorious" revision="master" />
+  <project path="external/libsamsung-ipc" name="replicant/external_libsamsung-ipc" remote="gitorious" revision="master" />
   
   <!-- Common Devices Repositories -->
   <project path="hardware/samsung" name="GearCM/android_hardware_samsung" remote="github" revision="cm-11.0" />
