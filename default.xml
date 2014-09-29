@@ -508,7 +508,7 @@
   <project name="GearCM/android_external_libmocha-ipc" path="external/libmocha-ipc" remote="github" revision="cm-11.0" />
 
   <project path="hardware/ril/samsung-ril" name="replicant/hardware_ril_samsung-ril" remote="gitorious" revision="master" />
-  <project path="external/libsamsung-ipc" name="replicant/external_libsamsung-ipc" remote="gitorious" revision="master" />
+  <project path="external/libsamsung-ipc" name="GearCM/external_libsamsung-ipc" remote="github" revision="master" />
   
   <!-- Common Devices Repositories -->
   <project path="hardware/samsung" name="GearCM/android_hardware_samsung" remote="github" revision="cm-11.0" />
