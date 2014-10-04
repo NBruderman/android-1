@@ -494,7 +494,7 @@
   
   <!-- Samsung Galaxy S4 Exynos Repositories -->
   <project path="device/samsung/i9500" name="GearCM/android_device_samsung_i9500" remote="github" revision="cm-11.0_new" />
-  <project path="kernel/samsung/exynos5410" name="GearCM/android_kernel_samsung_exynos5410" remote="github" revision="cm-11.0-lagdiagnose" />
+  <project path="kernel/samsung/exynos5410" name="GearCM/android_kernel_samsung_exynos5410" remote="github" revision="DailyUsable" />
   <project path="hardware/samsung_slsi/openmax" name="GearCM/android_hardware_samsung_slsi_openmax" remote="github" revision="cm-11.0" />
   
   <!-- Google GCC Toolchains -->
