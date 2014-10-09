@@ -524,4 +524,7 @@
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-11.0" />
   <project path="frameworks/opt/telephony" name="GearCM/android_frameworks_opt_telephony" remote="github" revision="cm-11.0" />
 
+  <!-- Linaro GCC 4.9 for Kernels -->
+  <project name="JustArchi/Toolchain" path="prebuilts/gcc/linux-x86/arm/linaro-4.9-arm-eabi" remote="github" revision="linaro-4.9-arm-eabi" />
+
 </manifest>
