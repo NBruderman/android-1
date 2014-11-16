@@ -300,7 +300,6 @@
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
-  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" />
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" />
@@ -526,6 +525,8 @@
   <project path="art" name="CyanogenMod/android_art" remote="github" revision="cm-11.0" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-11.0" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-11.0" />
+  
+  <project path="frameworks/native" name="GearCM/android_frameworks_native" remote="github" revision="cm-11.0" />
 
   <!-- Linaro GCC 4.9 for Kernels -->
   <project name="ArchiDroid/Toolchain" path="prebuilt/linux-x86/toolchain/linaro-4.9-arm-eabi" remote="github" revision="linaro-4.9-arm-eabi" />
