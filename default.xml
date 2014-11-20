@@ -526,7 +526,7 @@
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-11.0" />
   <project path="external/exfat" name="CyanogenMod/android_external_exfat" remote="github" revision="cm-11.0" />
   
-  <project path="frameworks/native" name="GearCM/android_frameworks_native" remote="github" revision="cm-11.0" />
+  <project path="frameworks/native" name="CyanogenMod/android_frameworks_native" remote="github" revision="cm-11.0" />
 
   <!-- Linaro GCC 4.9 for Kernels
   <project name="ArchiDroid/Toolchain" path="prebuilt/linux-x86/toolchain/linaro-4.9-arm-eabi" remote="github" revision="linaro-4.9-arm-eabi" />
