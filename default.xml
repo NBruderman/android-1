@@ -528,7 +528,10 @@
   
   <project path="frameworks/native" name="GearCM/android_frameworks_native" remote="github" revision="cm-11.0" />
 
-  <!-- Linaro GCC 4.9 for Kernels -->
+  <!-- Linaro GCC 4.9 for Kernels
   <project name="ArchiDroid/Toolchain" path="prebuilt/linux-x86/toolchain/linaro-4.9-arm-eabi" remote="github" revision="linaro-4.9-arm-eabi" />
+  -->
+
+  <project path="prebuilt/linux-x86/toolchain/google-4.8-arm-eabi" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
 
 </manifest>
