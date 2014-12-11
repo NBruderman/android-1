@@ -563,6 +563,6 @@
   
   <!-- Common Devices Repositories -->
   <project path="hardware/samsung" name="GearCM/android_hardware_samsung" />
-  <project path="vendor/samsung" name="GearOMNI/proprietary_vendor_samsung" revision="android-4.4" />
+  <project path="vendor/samsung" name="GearOMNI/proprietary_vendor_samsung" revision="cm-12.0" />
   
 </manifest>
