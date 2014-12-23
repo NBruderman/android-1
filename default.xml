@@ -524,6 +524,6 @@
   </project>
 
   <!-- Google Toolchain Repository for Kernel -->
-  <project path="prebuilt/linux-x86/toolchain/google-4.8-arm-eabi" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
+  <project path="prebuilt/linux-x86/toolchain/google-4.8-arm-eabi" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" revision="lollipop-release" />
 
 </manifest>
