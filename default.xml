@@ -20,8 +20,6 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="android" name="GearCM/android" />
-
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" />
   <project path="build" name="CyanogenMod/android_build" >
@@ -517,6 +515,7 @@
   <project path="vendor/samsung" name="GearOMNI/proprietary_vendor_samsung" revision="android-4.4" />
 
   <!-- GearCM Customized Repositories -->
+  <project path="android" name="GearCM/android" />
   <project path="packages/apps/Settings" name="GearCM/android_packages_apps_Settings" />
   <project path="packages/apps/Screencast" name="namelessrom/android_packages_apps_Screencast" revision="android-4.4" />
   <project path="vendor/cm" name="GearCM/android_vendor_cm" >
