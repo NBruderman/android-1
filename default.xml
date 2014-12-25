@@ -503,11 +503,11 @@
   <project path="hardware/samsung_slsi/exynos5-insignal" name="GearCM/android_hardware_samsung_slsi_exynos5-insignal" />
   <project path="hardware/samsung_slsi/exynos5410" name="GearCM/android_hardware_samsung_slsi_exynos5410" />
 
-  <!-- Samsung Wave Repositories -->
+  <!-- Samsung Wave Repositories
   <project path="device/samsung/wave" name="GearCM/android_device_samsung_wave" />
   <project path="vendor/samsung/wave" name="Badadroid/android_vendor_samsung_wave" />
   <project path="kernel/samsung/wave" name="GearCM/android_kernel_samsung_wave" />
-  <project path="external/libmocha-ipc" name="GearCM/android_external_libmocha-ipc" />
+  <project path="external/libmocha-ipc" name="GearCM/android_external_libmocha-ipc" />  -->
 
   <!-- Common Devices Repositories -->
   <project path="hardware/samsung" name="GearCM/android_hardware_samsung" />
