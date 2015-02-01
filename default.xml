@@ -563,7 +563,7 @@
   <project path="packages/apps/Screencast" name="namelessrom/android_packages_apps_Screencast" revision="n-2.0" />
 
   <!-- Samsung Galaxy S4 Exynos Repositories -->
-  <project path="device/samsung/i9500" name="NBruderman/android_device_samsung_i9500-1" />
+  <project path="device/samsung/i9500" name="GearCM/android_device_samsung_i9500" revision="cm-12.0-newmixer"/>
   <project path="kernel/samsung/exynos5410" name="GearCM/android_kernel_samsung_exynos5410" />
   <project path="hardware/samsung_slsi/openmax" name="GearCM/android_hardware_samsung_slsi_openmax" />
   <project path="hardware/samsung_slsi/exynos5-insignal" name="GearCM/android_hardware_samsung_slsi_exynos5-insignal" />
