@@ -403,7 +403,7 @@
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk" />
   <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="cm-12.0-caf" />
-  <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
+  <project path="hardware/samsung_slsi/exynos5" name="NBruderman/android_hardware_samsung_slsi_exynos5" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
@@ -564,7 +564,7 @@
   <project path="packages/apps/Screencast" name="namelessrom/android_packages_apps_Screencast" revision="n-2.0" />
 
   <!-- Samsung Galaxy S4 Exynos Repositories -->
-  <project path="device/samsung/i9500" name="GearCM/android_device_samsung_i9500" revision="cm-12.0-newmixer"/>
+  <project path="device/samsung/i9500" name="GearCM/android_device_samsung_i9500" revision="cm-12.0"/>
   <project path="kernel/samsung/exynos5410" name="GearCM/android_kernel_samsung_exynos5410" />
   <project path="hardware/samsung_slsi/openmax" name="GearCM/android_hardware_samsung_slsi_openmax" />
   <project path="hardware/samsung_slsi/exynos5-insignal" name="GearCM/android_hardware_samsung_slsi_exynos5-insignal" />
