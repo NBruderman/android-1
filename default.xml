@@ -502,7 +502,6 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,linux,arm" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" remote="aosp" />
@@ -551,7 +550,7 @@
   <project path="packages/apps/Screencast" name="namelessrom/android_packages_apps_Screencast" revision="n-2.0" />
 
   <project path="bionic" name="ArchiDroid/android_bionic" />
-  <project path="build" name="ArchiDroid/android_build" >
+  <project path="build" name="ArchiDroid/android_build" revision="cm-12.0-optimized" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bootable/recovery" name="ArchiDroid/android_bootable_recovery" />
@@ -560,6 +559,7 @@
   <project path="packages/apps/Settings" name="ArchiDroid/android_packages_apps_Settings" />
   <project path="packages/services/Telecomm" name="ArchiDroid/android_packages_services_Telecomm" />
   <project path="packages/services/Telephony" name="ArchiDroid/android_packages_services_Telephony" />
+  <project name="ArchiDroid/Toolchain" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" remote="github" revision="sabermod-4.8-arm-linux-androideabi" />
 
   <!-- Samsung Galaxy S4 Exynos Repositories -->
   <project path="device/samsung/i9500" name="GearCM/android_device_samsung_i9500" />
