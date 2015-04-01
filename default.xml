@@ -583,7 +583,7 @@
   <!-- Samsung Galaxy S4 Exynos Repositories -->
   <project path="device/samsung/i9500" name="NBruderman/android_device_samsung_i9500" />
   <project path="kernel/samsung/exynos5410" name="GearCM/android_kernel_samsung_exynos5410" />
-  <project path="hardware/samsung_slsi/openmax" name="CyanogenMod/android_hardware_samsung_slsi_openmax" />
+  <project path="hardware/samsung_slsi/openmax" name="GearCM/android_hardware_samsung_slsi_openmax" />
   <project path="hardware/samsung_slsi/exynos5-insignal" name="GearCM/android_hardware_samsung_slsi_exynos5-insignal" />
   <project path="hardware/samsung_slsi/exynos5410" name="GearCM/android_hardware_samsung_slsi_exynos5410" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
