@@ -590,7 +590,7 @@
   <project path="hardware/samsung_slsi/exynos" name="CyanogenMod/android_hardware_samsung_slsi_exynos" />
   
   <!-- Common Devices Repositories -->
-  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" />
+  <project path="hardware/samsung" name="GearCM/android_hardware_samsung" revision="cm-12.0-stable" />
   <project path="vendor/samsung" name="GearOMNI/proprietary_vendor_samsung" revision="cm-12.0" />
 
 </manifest>
